@@ -1,6 +1,6 @@
 #### LinkedIn App RDS ####
 
-# Subnet Group for LinkedIn App
+/*# Subnet Group for LinkedIn App
 resource "aws_db_subnet_group" "linkedin-db-sub-grp" {
   name       = "linkedin-db-sub-grp"
   subnet_ids = ["${aws_subnet.linkedin-pvt-sub-1.id}", "${aws_subnet.linkedin-pvt-sub-2.id}"]
@@ -28,3 +28,4 @@ resource "aws_db_instance" "linkedin-db" {
     ignore_changes  = all
   }
 }
+*/
